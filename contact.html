@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto | RANKEO STUDIO</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@300;400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="/RANKEO/CSS/style.css">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(to bottom right, #f4f4f4, #ffffff);
+      color: #1a1a1a;
+      margin: 0;
+      padding: 0;
+    }
+
+    .contact-wrapper {
+      max-width: 800px;
+      margin: 8rem auto 4rem;
+      background: rgba(255, 255, 255, 0.9);
+      padding: 3rem;
+      border-radius: 20px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.06);
+      backdrop-filter: blur(12px);
+    }
+
+    .contact-title {
+      font-family: 'DM Serif Display', serif;
+      font-size: 2.5rem;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .contact-form label {
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      display: block;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 0.75rem;
+      margin-bottom: 1.5rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-family: 'Inter', sans-serif;
+    }
+
+    .contact-form textarea {
+      min-height: 120px;
+      resize: vertical;
+    }
+
+    .submit-button {
+      background-color: #00ff9d;
+      color: #000;
+      border: none;
+      padding: 0.75rem 2rem;
+      font-size: 1rem;
+      cursor: pointer;
+      border-radius: 30px;
+      font-weight: 600;
+      transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+
+    .submit-button:hover {
+      background-color: #00e691;
+      transform: scale(1.05);
+    }
+
+    footer {
+      background: #1a1a1a;
+      color: #999;
+      text-align: center;
+      padding: 2rem 1rem;
+      margin-top: 4rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="contact-wrapper">
+    <h1 class="contact-title">Contactanos</h1>
+    <form class="contact-form">
+      <label for="name">Nombre completo</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Correo electrónico</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Mensaje</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit" class="submit-button">Enviar mensaje</button>
+    </form>
+  </div>
+
+  <footer>
+    <div class="footer-brand">&copy; 2025 <strong>RANKEO STUDIO</strong>. Todos los derechos reservados.</div>
+    <div class="social-icons">
+      <a href="https://instagram.com" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="https://linkedin.com" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://wa.me/5491123456789" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+    </div>
+  </footer>
+</body>
+</html>

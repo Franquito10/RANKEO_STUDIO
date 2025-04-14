@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RANKEO STUDIO</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@300;400;600&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" referrerpolicy="no-referrer" />
+
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <link rel="stylesheet" href="/RANKEO/CSS/style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+          <img src="Rankeo%20Studio2.png" alt="Rankeo Studio Logo">
+        </div>
+        <div class="menu-toggle" onclick="document.querySelector('nav ul').classList.toggle('show')">
+          <i class="fas fa-bars"></i>
+        </div>
+        <ul>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#filosofia">Filosofía</a></li>
+          <li><a href="#casos">Casos</a></li>
+          <li><a href="/RANKEO/contact.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <header>
+        <video autoplay muted loop playsinline>
+          <source src="https://assets.mixkit.co/videos/preview/mixkit-digital-data-6598-large.mp4" type="video/mp4" />
+          Tu navegador no soporta video HTML5.
+        </video>
+        <div class="overlay"></div>
+        <div>
+          <h1 id="main-title">Impulsamos tu presencia digital</h1>
+          <p id="subtitle">Consultora de alto impacto en estrategia, innovación y crecimiento</p>
+          <button class="cta-button" id="cta-main">Solicitá una consulta</button>
+        </div>
+    </header>
+
+    <section class="reveal section-bg">
+        <div class="section-bg-deco"></div>
+        <h2 class="section-title">Servicios Premium</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Crecimiento de Marca</h3>
+                <p>Impulsamos la identidad y notoriedad de tu negocio con estrategias personalizadas y IA.</p>
+            </div>
+            <div class="service">
+                <h3>Impulso de Negocios</h3>
+                <p>Transformamos objetivos comerciales en resultados concretos mediante herramientas digitales
+                    avanzadas.</p>
+            </div>
+            <div class="service">
+                <h3>Posicionamiento Político</h3>
+                <p>Campañas inteligentes para visibilidad y gestión de reputación en entornos públicos.</p>
+            </div>
+            <div class="service">
+                <h3>Gestión de Narrativas</h3>
+                <p>Optimizamos tu percepción pública con estrategias éticas y análisis de conversación social.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="filosofia" class="about reveal">
+        <h2 class="section-title">Nuestra Filosofía</h2>
+        <p style="text-align: center; max-width: 800px; margin: auto;">
+          En nuestra agencia creemos en el poder del análisis avanzado, la creatividad estratégica y la tecnología de vanguardia. Combinamos IA, automatización y estrategia para brindar resultados medibles e impacto real.
+        </p>
+    </section>
+
+    <section class="timeline-section reveal">
+        <h2 class="section-title">¿Cómo trabajamos?</h2>
+        <div style="height: 30px; background: linear-gradient(to bottom, transparent, #eee);"></div>
+        <div class="timeline-container">
+          <div class="timeline">
+            <div class="timeline-item"><span class="dot"></span><p>Estrategia</p></div>
+            <div class="timeline-item"><span class="dot"></span><p>Creación</p></div>
+            <div class="timeline-item"><span class="dot"></span><p>Lanzamiento</p></div>
+            <div class="timeline-item"><span class="dot"></span><p>Optimización</p></div>
+            <div class="timeline-item"><span class="dot"></span><p>Resultados</p></div>
+          </div>
+        </div>
+    </section>
+      
+
+    <section class="diagonal-section reveal">
+      <div class="diagonal-bg"></div>
+      <div class="section-content">
+        <h2 class="section-title">Casos de Éxito</h2>
+        <div class="services-grid">
+          <div class="service-card">
+            <h3>Campaña Política 360°</h3>
+            <p>Duplicamos la visibilidad de un candidato emergente en 3 semanas.</p>
+          </div>
+          <div class="service-card">
+            <h3>Expansión Global</h3>
+            <p>Ayudamos a una startup local a escalar internacionalmente con posicionamiento estratégico.</p>
+          </div>
+          <div class="service-card">
+            <h3>Reputación Online</h3>
+            <p>Revertimos una crisis de imagen en menos de 10 días con acciones distribuidas.</p>
+          </div>
+        </div>
+      </div>
+    </section>    
+    
+
+    <section class="contact-cta reveal">
+        <h2 class="section-title">¿Querés dar el siguiente paso?</h2>
+        <p>Conectá con nosotros y descubrí cómo podemos ayudarte a potenciar tu impacto digital de forma estratégica y profesional.</p>
+        <a href="contacto.html"><button class="contact-link-button">Ir a la página de contacto</button></a>
+    </section>
+
+    <footer>
+        <div class="footer-brand">&copy; 2025 <strong>RANKEO STUDIO</strong>. Todos los derechos reservados.</div>
+        <div class="social-icons">
+          <a href="https://instagram.com" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://linkedin.com" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://wa.me/5491123456789" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        </div>
+    </footer>   
+    <script src="/RANKEO/JS/script.js"></script>
+      
+</body>
+
+</html>

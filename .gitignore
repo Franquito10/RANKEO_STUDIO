@@ -1,0 +1,19 @@
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Visual Studio Code
+.vscode/
+
+# Logs
+*.log
+
+# Node (por si después agregás herramientas)
+node_modules/
+dist/
+.env
+
+# Archivos comprimidos o temporales
+*.zip
+*.rar
+*.tmp
